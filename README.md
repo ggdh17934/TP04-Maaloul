@@ -5,7 +5,7 @@
 This folder contains the TP04 assignment and a verified implementation using the
 existing TP02 HIGGS dataset. Start with [the full plan](PROJECT_PLAN.md).
 Installation, Docker execution, Docker Hub publication and final screenshots are
-separate milestones; see [setup status](SETUP_STATUS.md) for measured progress.
+separate milestones; see [setup status](SETUP_STATUS.md) for completion and measured results.
 
 ## Published Docker image
 [Docker Hub repository](https://hub.docker.com/r/amj11/tp04-higgs):
@@ -36,6 +36,11 @@ before docker build. This downloads the Linux wheels required by the Dockerfile.
 For local tests, create .venv with python -m venv .venv and install requirements.txt
 using .venv/Scripts/python.exe -m pip install -r requirements.txt.
 
+## Screenshot evidence
+
+[View all eight screenshots](screenshots/README.md). These include the live Docker Hub
+page and live result endpoint, plus labelled browser views of real command output.
+
 ## Files
 - app/analyze.py: stream the CSV in 50,000-row chunks; optional HTTP status.
 - Dockerfile: Python 3.12 slim image, packages installed from downloaded Linux wheels.
@@ -46,7 +51,7 @@ using .venv/Scripts/python.exe -m pip install -r requirements.txt.
 - scripts/: prerequisite check and repeatable package downloads.
 - tests/: aggregation correctness and malformed-record checks.
 - report/REPORT.md: answers to the assignment questions and evidence placeholders.
-- screenshots/: genuine screenshot checklist; screenshot capture is still pending.
+- screenshots/: [eight captured screenshots and source/provenance notes](screenshots/README.md).
 - downloads/: installer and its verification manifest, excluded from Git.
 
 ## Dataset

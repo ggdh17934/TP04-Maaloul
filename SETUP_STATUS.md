@@ -45,11 +45,15 @@
 - Downloads, .venv, private .env, wheel caches and the dataset are excluded.
 - Public execution evidence is under evidence/; raw results/ remains local.
 
-## Remaining
-- Capture and add genuine screenshots required by the assignment.
-- The computer-use tool denied Edge access, so no UI screenshots were captured.
-- Screenshots are the remaining evidence item; the running containers and Hub
-  repository are available for manual capture.
+## Submission evidence completed
+- Eight browser screenshots captured through the working Edge extension.
+- Gallery and capture provenance: screenshots/README.md.
+- Hashes and dimensions: evidence/capture-manifest.json.
+- Hub and live container result pages captured directly.
+- Other images capture labelled browser views of actual command output and saved results.
+- The two absolute Windows user-path references identified in the audit were redacted.
+- Report and README link the completed screenshot gallery.
+- GitHub and submission ZIP are refreshed with this evidence.
 
 ## Evidence
 - results/publication.json, hub-push.log, hub-pull.log and hub-image.json.

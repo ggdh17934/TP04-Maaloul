@@ -1,0 +1,102 @@
+{
+  "captured_on": "2026-10-27",
+  "method": "Edge browser extension screenshot API",
+  "images": [
+    {
+      "file": "screenshots/01-installation-versions.jpg",
+      "title": "Docker and Compose installation versions",
+      "source_type": "current_command_snapshot_browser_view",
+      "source_url": "http://127.0.0.1:8765/01-installation-versions.html",
+      "dimensions": [
+        1052,
+        694
+      ],
+      "bytes": 45270,
+      "sha256": "69c55c16d1445c84cfcbfec0d0f5f940dee3a66f3ee528327e1b4856a67cf4f5"
+    },
+    {
+      "file": "screenshots/02-docker-hub-image.jpg",
+      "title": "Published Docker Hub image and v1 tag",
+      "source_type": "live_browser_page",
+      "source_url": "https://hub.docker.com/r/amj11/tp04-higgs",
+      "dimensions": [
+        1512,
+        1396
+      ],
+      "bytes": 101744,
+      "sha256": "6402ce6cd9c8a1855a39ab6c69e15c9477b87bdd13036259fdeea324aef3d4b4"
+    },
+    {
+      "file": "screenshots/03-registry-push-pull.jpg",
+      "title": "Successful registry push and subsequent pull",
+      "source_type": "saved_command_output_browser_view",
+      "source_url": "http://127.0.0.1:8765/03-registry-push-pull.html",
+      "dimensions": [
+        1528,
+        694
+      ],
+      "bytes": 64292,
+      "sha256": "aacbc261ac7ced74f3eecfb2f2607f2b8ea6bbb8dd7be906a52ed796856fe6d0"
+    },
+    {
+      "file": "screenshots/04-three-containers.jpg",
+      "title": "Three healthy containers and host port checks",
+      "source_type": "current_and_saved_command_output_browser_view",
+      "source_url": "http://127.0.0.1:8765/04-three-containers.html",
+      "dimensions": [
+        1528,
+        694
+      ],
+      "bytes": 72677,
+      "sha256": "c5347b26099d77cd3f66566b7cc3222ff6f89ec6604a68020800ec31f5e69ed4"
+    },
+    {
+      "file": "screenshots/05-network-connectivity.jpg",
+      "title": "Shared bridge network and peer DNS/HTTP request",
+      "source_type": "current_command_snapshot_browser_view",
+      "source_url": "http://127.0.0.1:8765/05-network-connectivity.html",
+      "dimensions": [
+        1513,
+        687
+      ],
+      "bytes": 72106,
+      "sha256": "771914fc69e9940c506bf10387840995c869acef9d003b3336f5a92470717cc5"
+    },
+    {
+      "file": "screenshots/06-live-container-result.jpg",
+      "title": "Completed live sample analysis result",
+      "source_type": "live_browser_page",
+      "source_url": "http://localhost:8001/result",
+      "dimensions": [
+        1528,
+        693
+      ],
+      "bytes": 46736,
+      "sha256": "fc80200001fb18cec1350587ebc28f7e9c62e7ae87781318c149be7f246fd592"
+    },
+    {
+      "file": "screenshots/07-full-dataset-result.jpg",
+      "title": "Complete 11,000,000-row run and validation",
+      "source_type": "saved_result_browser_view",
+      "source_url": "http://127.0.0.1:8765/07-full-dataset-result.html",
+      "dimensions": [
+        1513,
+        687
+      ],
+      "bytes": 81402,
+      "sha256": "90c39b0e0c3c7ddf619ce25eccfb6f29ee569f7e49287df155b4026d74508813"
+    },
+    {
+      "file": "screenshots/08-compose-lifecycle.jpg",
+      "title": "Compose batch exit code 0 and cleanup",
+      "source_type": "saved_command_output_browser_view",
+      "source_url": "http://127.0.0.1:8765/08-compose-lifecycle.html",
+      "dimensions": [
+        1528,
+        694
+      ],
+      "bytes": 60814,
+      "sha256": "bb0b26b7bcba8723a0bd40bf90662775f830878c2a300bd7daa1a28227402487"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+NAMES                     IMAGE                 STATUS                    PORTS
+tp4-maalool-analysis1-1   amj11/tp04-higgs:v1   Up 41 minutes (healthy)   127.0.0.1:8001->8000/tcp
+tp4-maalool-analysis3-1   amj11/tp04-higgs:v1   Up 41 minutes (healthy)   127.0.0.1:8003->8000/tcp
+tp4-maalool-analysis2-1   amj11/tp04-higgs:v1   Up 41 minutes (healthy)   127.0.0.1:8002->8000/tcp

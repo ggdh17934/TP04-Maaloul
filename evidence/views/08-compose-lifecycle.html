@@ -1,0 +1,7 @@
+<!doctype html><meta charset='utf-8'><title>Task 4 - Compose batch exit and cleanup</title><style>body{font:16px/1.5 system-ui,sans-serif;background:#eef2f6;color:#142033;margin:0}main{max-width:1320px;margin:32px auto;padding:28px;background:white;border:1px solid #d5dee8;border-radius:10px}h1{font-size:27px;margin:0 0 8px}h2{font-size:17px;margin:26px 0 8px}.note{background:#eaf2ff;padding:12px;border-left:4px solid #326bd4}pre{font:13px/1.55 Consolas,monospace;background:#f5f7fa;border:1px solid #d7dfe8;padding:16px;white-space:pre-wrap;overflow-wrap:anywhere}footer{color:#546278;border-top:1px solid #d7dfe8;padding-top:16px;font-size:13px}</style><main><h1>Task 4 - Compose batch exit and cleanup</h1><p class='note'>Saved actual output from the full dataset run and cleanup on 2026-10-27.</p><section><h2>docker compose ps -a after successful batch exit</h2><pre>NAME            IMAGE              COMMAND                  SERVICE         CREATED         STATUS                     PORTS
+tp04-analysis   tp04-higgs:local   &quot;python app/analyze.…&quot;   data-analysis   4 minutes ago   Exited (0) 7 seconds ago</pre></section><section><h2>docker compose down</h2><pre> Container tp04-analysis Stopping
+ Container tp04-analysis Stopped
+ Container tp04-analysis Removing
+ Container tp04-analysis Removed
+ Network tp4-maalool_default Removing
+ Network tp4-maalool_default Removed</pre></section><footer>TP04 | amj11/tp04-higgs:v1 | Browser view of actual command output, not a terminal screenshot. Host-specific paths redacted.</footer></main>

@@ -18,7 +18,11 @@ The 8 GB CSV, archives/installers, wheel caches, .venv and private .env remain l
 Fresh source builds download their Python wheels using scripts/download-dependencies.ps1.
 The published Docker image can be pulled directly without rebuilding.
 
-## Pending
-- Genuine screenshots listed in screenshots/README.md.
-Computer Use denied access to Edge; screenshots have not been fabricated or
-substituted with rendered command output. The logs/JSON are actual execution evidence.
+## Screenshot evidence completed
+- [Eight captured screenshots](screenshots/README.md) are included.
+- The gallery distinguishes live browser pages from labelled command-output views.
+- Original logs/JSON and screenshot file hashes are included in evidence/.
+- The local ZIP is regenerated from the final committed source tree.
+
+No further implementation or screenshot tasks remain under the documented TP02
+interpretation. The assignment's mixed TP02/TP03 wording is disclosed in README.md.

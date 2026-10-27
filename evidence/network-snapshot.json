@@ -1,0 +1,29 @@
+{
+  "Name": "tp4-maalool_tp04-net",
+  "Driver": "bridge",
+  "Scope": "local",
+  "Internal": false,
+  "Containers": {
+    "291b2c24282a8e968b6c836ccbe6cdd459bf76ff77767a4aaa70076fbb3c0231": {
+      "Name": "tp4-maalool-analysis3-1",
+      "EndpointID": "803e6a030c6bcc4161bd9eeb7690a230a386ba054df53964baa96d864b2d4fbc",
+      "MacAddress": "d6:43:91:e9:0a:ef",
+      "IPv4Address": "172.18.0.2/16",
+      "IPv6Address": ""
+    },
+    "58898226e07de530daf3a0843e334b86ff17fb7110dbc880773f4a5a0c6b65a6": {
+      "Name": "tp4-maalool-analysis1-1",
+      "EndpointID": "9f3448f4605bedb2880a36f4d18b50b8a9fe1c77cab4bfc4029847cefdf3d10d",
+      "MacAddress": "aa:b3:3c:fe:14:86",
+      "IPv4Address": "172.18.0.3/16",
+      "IPv6Address": ""
+    },
+    "9c22be7399ec64c972aa19627124342328f90aac8098bec681fdf0e496c26f07": {
+      "Name": "tp4-maalool-analysis2-1",
+      "EndpointID": "867968d4bb2b2d95f28f89231835cdc60de5d8d0ea5769f4d2c87685eef6de51",
+      "MacAddress": "92:6c:0c:95:96:41",
+      "IPv4Address": "172.18.0.4/16",
+      "IPv6Address": ""
+    }
+  }
+}

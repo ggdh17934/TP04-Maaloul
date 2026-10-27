@@ -8,7 +8,8 @@ Installation, downloads, local Docker build, three-container checks and the full
 CSV Compose run have now completed. See SETUP_STATUS.md for the actual measurements.
 Docker Hub publication and the three-container run from the pulled Hub image are
 now complete under amj11/tp04-higgs:v1. GitHub source/report/evidence are now available at https://github.com/ggdh17934/TP04-Maaloul.
-Genuine screenshots remain pending because Edge computer-use access was denied. The phases below retain the reproducible workflow.
+Eight screenshots are now captured through the Edge extension; the report and
+README link the gallery. Earlier native capture failures were resolved for browser capture. The phases below retain the reproducible workflow.
 
 The PDF permits TP02/TP03 data in the prerequisites but names TP3 in Task 2.
 We use TP02 as requested and make that choice visible in the report.

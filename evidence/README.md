@@ -12,3 +12,10 @@ numeric results and digests are unchanged. These files are logs/JSON, not screen
 - compose-run.log, compose-ps.txt and compose-down.log: full batch run and cleanup.
 - publication.json: publication and verification metadata.
 The sample results do not replace the full dataset run.
+
+## Screenshot sources
+The screenshot gallery is ../screenshots/README.md; file hashes and capture source
+types are in capture-manifest.json. Browser captures of HTML views are explicitly
+labelled as command-output/result viewers. views/ contains those static HTML
+sources, and scripts/build-evidence-views.py regenerates them from actual logs
+and read-only Docker queries. Native window capture is not claimed.

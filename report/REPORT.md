@@ -88,7 +88,15 @@ The original assignment PDF is included. The large input CSV, installer, package
 caches and local Python environment are excluded. README.md explains how to reuse
 the dataset and pull the published Docker image or rebuild the source.
 
-## Submission evidence still to add
-Genuine UI screenshots listed in ../screenshots/README.md remain pending.
-Computer Use denied Edge access; saved command logs and JSON are real evidence
-and are not represented as screenshots.
+## Screenshot evidence
+[Eight screenshots](../screenshots/README.md) cover installation versions, the
+published Hub image, saved push/pull output, three containers and mapped ports,
+network membership and DNS/HTTP, the live sample endpoint, the saved full-data
+result, and the saved Compose batch exit/cleanup.
+
+All images were captured by the Edge browser extension. Native Windows capture
+timed out. Images 02 and 06 directly capture live browser pages; other images
+capture labelled evidence viewers showing actual current command snapshots or
+saved output. These are browser screenshots, not terminal screenshots.
+The recorded 8 GB run was not rerun or represented as a new run for capture.
+Raw logs/JSON and the image SHA-256 manifest are included in ../evidence/.
