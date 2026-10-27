@@ -24,5 +24,5 @@ The published Docker image can be pulled directly without rebuilding.
 - Original logs/JSON and screenshot file hashes are included in evidence/.
 - The local ZIP is regenerated from the final committed source tree.
 
-No further implementation or screenshot tasks remain under the documented TP02
-interpretation. The assignment's mixed TP02/TP03 wording is disclosed in README.md.
+TP02 and TP03 use the same HIGGS dataset; TP03 adds Power BI analysis.
+The shared CSV is reused in TP04. No further implementation or screenshot tasks remain.

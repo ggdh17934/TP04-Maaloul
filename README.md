@@ -61,9 +61,9 @@ Size measured during setup: 8,035,497,980 bytes. The TP02 manifest records
 11,000,000 rows and 29 columns, no header.
 We reuse it through a read-only bind mount; it is not copied into Git or the image.
 
-The PDF prerequisites allow a TP02 or TP03 CSV, while Task 2 says TP3.
-This project follows your choice of TP02. If the teacher strictly requires the
-TP03 application, adapt the analysis before final submission.
+TP02 and TP03 use the same HIGGS dataset. TP03 adds Power BI analysis of that
+same data. TP04 therefore reuses the shared CSV for the Docker application;
+no different TP03 dataset or additional Power BI work is required for this lab.
 
 ## Local verification
 Open PowerShell and run:

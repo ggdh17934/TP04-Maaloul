@@ -70,3 +70,7 @@
 
 The first full scan was intentionally stopped to increase read buffering across
 the Windows-to-WSL mount; the successful measured run uses an 8 MiB validation buffer.
+
+## Dataset continuity confirmed
+TP02 and TP03 use the same HIGGS data; TP03 adds Power BI analysis.
+The TP04 Docker application uses that shared CSV, so no dataset change is pending.

@@ -37,7 +37,8 @@ readiness, and inserts the small aggregation results through a PostgreSQL driver
 A read-only CSV mount is sufficient for this assignment; no SQL server is needed now.
 
 ## Dataset and application
-Uses the existing TP02 HIGGS CSV: 29 numeric columns without a header.
+TP02 and TP03 use the same HIGGS dataset; TP03 adds Power BI analysis of it.
+This Docker application reuses that shared CSV: 29 numeric columns without a header.
 The prior manifest records 11,000,000 rows, 8,035,497,980 bytes and SHA-256
 9a7cf07203c2e348a261920a80179e42024b8c43cc6e39d4c42a7b0aa8114815.
 These are inherited metadata, not a fresh hash verification. Streaming aggregation

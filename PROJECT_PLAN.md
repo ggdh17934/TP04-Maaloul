@@ -11,8 +11,8 @@ now complete under amj11/tp04-higgs:v1. GitHub source/report/evidence are now av
 Eight screenshots are now captured through the Edge extension; the report and
 README link the gallery. Earlier native capture failures were resolved for browser capture. The phases below retain the reproducible workflow.
 
-The PDF permits TP02/TP03 data in the prerequisites but names TP3 in Task 2.
-We use TP02 as requested and make that choice visible in the report.
+TP02 and TP03 use the same HIGGS dataset; TP03 adds Power BI analysis.
+Reusing the existing CSV therefore supplies the dataset referenced by both labs.
 
 ## Existing resources and constraints
 - Windows 10 Pro 22H2, build 19045.6466, x86_64.
@@ -130,7 +130,7 @@ The prepared report answers all six conceptual questions:
 - How to add a database service.
 
 Add measured results, exact versions/digests, image/repository links and evidence.
-Explain the TP02 choice, headerless schema, chunked algorithm, mounts, port maps,
+Explain the shared TP02/TP03 dataset, headerless schema, chunked algorithm, mounts, port maps,
 memory limits and why the three sample containers are independent.
 Do not leave execution claims without corresponding evidence.
 
