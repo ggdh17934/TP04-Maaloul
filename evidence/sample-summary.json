@@ -1,0 +1,33 @@
+{
+  "dataset": "first_100003.csv",
+  "rows": 100003,
+  "columns": 29,
+  "chunksize": 50000,
+  "seconds": 1.1967656000001625,
+  "metrics": {
+    "label": {
+      "sum": 52835.0,
+      "valid_count": 100003,
+      "missing_count": 0,
+      "mean": 0.5283341499755008
+    },
+    "lepton_pt": {
+      "sum": 99038.51642227173,
+      "valid_count": 100003,
+      "missing_count": 0,
+      "mean": 0.9903554535591105
+    },
+    "m_jj": {
+      "sum": 103263.85262196511,
+      "valid_count": 100003,
+      "missing_count": 0,
+      "mean": 1.0326075479932113
+    },
+    "m_wwbb": {
+      "sum": 95923.09971934557,
+      "valid_count": 100003,
+      "missing_count": 0,
+      "mean": 0.9592022211268219
+    }
+  }
+}

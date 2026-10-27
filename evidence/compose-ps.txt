@@ -1,0 +1,2 @@
+NAME            IMAGE              COMMAND                  SERVICE         CREATED         STATUS                     PORTS
+tp04-analysis   tp04-higgs:local   "python app/analyze.…"   data-analysis   4 minutes ago   Exited (0) 7 seconds ago

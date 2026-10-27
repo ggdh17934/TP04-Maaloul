@@ -1,0 +1,20 @@
+{
+  "repository": "https://hub.docker.com/r/amj11/tp04-higgs",
+  "image": "amj11/tp04-higgs:v1",
+  "digest": "sha256:eb9ae9e9a2b0e7dbc2003f1b252a11329a4fd9e1a4ec0ae47acc3b112358d4b4",
+  "push_success": true,
+  "pull_success": true,
+  "three_published_image_containers_healthy": true,
+  "host_ports_verified": [
+    8001,
+    8002,
+    8003
+  ],
+  "peer_dns_http_verified": true,
+  "sample_rows_per_container": 100003,
+  "containers_left_running_for_review": true,
+  "github_auth_check": "authenticated",
+  "date": "2026-10-27",
+  "github_repository": "https://github.com/ggdh17934/TP04-Maaloul",
+  "github_login": "ggdh17934"
+}

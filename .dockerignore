@@ -1,0 +1,8 @@
+*
+!Dockerfile
+!requirements.txt
+!vendor/
+!vendor/linux-wheels/
+!vendor/linux-wheels/*.whl
+!app/
+!app/*.py

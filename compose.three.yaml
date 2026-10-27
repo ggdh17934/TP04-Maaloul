@@ -1,0 +1,34 @@
+# Task 3 equivalent in Compose. The README also provides literal docker run commands.
+x-analysis: &analysis
+  image: ${IMAGE_NAME:-tp04-higgs:local}
+  command: ["python", "app/analyze.py", "--serve"]
+  environment:
+    DATA_FILE: /app/data/samples/first_100003.csv
+  volumes:
+    - type: bind
+      source: ${DATA_DIR:?Set DATA_DIR in .env}
+      target: /app/data
+      read_only: true
+      bind:
+        create_host_path: false
+  mem_limit: 512m
+  cpus: 1
+  networks: [tp04-net]
+  healthcheck:
+    test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health', timeout=3)"]
+    interval: 10s
+    timeout: 5s
+    retries: 6
+    start_period: 15s
+services:
+  analysis1:
+    <<: *analysis
+    ports: ["127.0.0.1:8001:8000"]
+  analysis2:
+    <<: *analysis
+    ports: ["127.0.0.1:8002:8000"]
+  analysis3:
+    <<: *analysis
+    ports: ["127.0.0.1:8003:8000"]
+networks:
+  tp04-net:

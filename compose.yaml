@@ -1,0 +1,19 @@
+services:
+  data-analysis:
+    build: .
+    image: ${IMAGE_NAME:-tp04-higgs:local}
+    container_name: tp04-analysis
+    environment:
+      DATA_FILE: ${DATA_FILE:-/app/data/raw/HIGGS.csv}
+      OUTPUT_FILE: /app/results/summary.json
+    volumes:
+      - type: bind
+        source: ${DATA_DIR:?Set DATA_DIR in .env}
+        target: /app/data
+        read_only: true
+        bind:
+          create_host_path: false
+      - ./results:/app/results
+    mem_limit: 1g
+    cpus: 2
+    restart: "no"

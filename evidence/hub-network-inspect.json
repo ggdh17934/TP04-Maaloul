@@ -1,0 +1,71 @@
+[
+    {
+        "Name": "tp4-maalool_tp04-net",
+        "Id": "b22b8a80bf0d9217499a8f471a5508722de074c6d98d08d55e6d0e95e42375d7",
+        "Created": "2026-10-27T09:00:35.54207002Z",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv4": true,
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.18.0.0/16",
+                    "Gateway": "172.18.0.1"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Options": {
+            "com.docker.network.enable_ipv4": "true",
+            "com.docker.network.enable_ipv6": "false"
+        },
+        "Labels": {
+            "com.docker.compose.config-hash": "5d4c44453e6f84380c1115273715dce7d9982e855457352b74ca3e9b46f76e37",
+            "com.docker.compose.network": "tp04-net",
+            "com.docker.compose.project": "tp4-maalool",
+            "com.docker.compose.version": "5.6.1"
+        },
+        "Containers": {
+            "291b2c24282a8e968b6c836ccbe6cdd459bf76ff77767a4aaa70076fbb3c0231": {
+                "Name": "tp4-maalool-analysis3-1",
+                "EndpointID": "803e6a030c6bcc4161bd9eeb7690a230a386ba054df53964baa96d864b2d4fbc",
+                "MacAddress": "d6:43:91:e9:0a:ef",
+                "IPv4Address": "172.18.0.2/16",
+                "IPv6Address": ""
+            },
+            "58898226e07de530daf3a0843e334b86ff17fb7110dbc880773f4a5a0c6b65a6": {
+                "Name": "tp4-maalool-analysis1-1",
+                "EndpointID": "9f3448f4605bedb2880a36f4d18b50b8a9fe1c77cab4bfc4029847cefdf3d10d",
+                "MacAddress": "aa:b3:3c:fe:14:86",
+                "IPv4Address": "172.18.0.3/16",
+                "IPv6Address": ""
+            },
+            "9c22be7399ec64c972aa19627124342328f90aac8098bec681fdf0e496c26f07": {
+                "Name": "tp4-maalool-analysis2-1",
+                "EndpointID": "867968d4bb2b2d95f28f89231835cdc60de5d8d0ea5769f4d2c87685eef6de51",
+                "MacAddress": "92:6c:0c:95:96:41",
+                "IPv4Address": "172.18.0.4/16",
+                "IPv6Address": ""
+            }
+        },
+        "Status": {
+            "IPAM": {
+                "Subnets": {
+                    "172.18.0.0/16": {
+                        "IPsInUse": 6,
+                        "DynamicIPsAvailable": 65530
+                    }
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,12 @@
+{
+  "full_rows": 11000000,
+  "columns": 29,
+  "seconds": 280.34388938,
+  "exit_code": 0,
+  "oom_killed": false,
+  "reference": "C:\\Users\\Hamada Salim G-Trd\\Desktop\\TP2-MALOUL\\results\\full\\chunks_run1.json",
+  "all_counts_match": true,
+  "all_sums_means_match": true,
+  "relative_tolerance": 1e-10,
+  "absolute_tolerance": 1e-08
+}
